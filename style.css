@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(163, 163, 167);
+    width: 300px;
+    font-family:  'Poppins', sans-serif;
+}
+.sidebar nav{
+    padding: 50px;
+}
+.sidebar nav ul li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav ul a{
+    list-style: none;
+    font-size: 25px;
+   
+    color: black;
+    font-weight: 300;
+}
+.sidebar nav ul a:hover{
+    color:  #524d55;
+}
+.sidebar nav ul a{
+    text-decoration: none;
+}
+.mainbar{
+    /*background-color: red;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.info-container{
+   /*background-color: aqua;*/
+   height: 58vh;
+   width: 80vw;
+   display: flex;
+    justify-content: space-around;
+   margin: 144px auto;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hello{
+    font-size: 60px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Playwrite AU SA', sans-serif;
+}
+.about{
+    font-size: 35px;
+    font-weight: 300;
+}
+.moreabout{
+    margin-top: 15px;
+    font-size: 22px;
+    font-family: poppins;
+}
+.buttons{
+    margin-top:34px ;
+}
+.buttons button{
+    background-color: #088178;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+}
+.buttons button:hover{
+    background-color: #194f48;
+}
+.devPic img{
+    height: 58vh;
+    margin: 0 50px;
+}
+.contactform{
+    display: flex;
+    border: 1px solid #7d7a7a;
+    border-radius: 25px;
+    height: 85vh;
+    margin: 60px 150px;
+    
+}
+.contactform form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 200px;
+}
+.contactform form input{
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.contactform form textarea{
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.contactform p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.contactform form button{
+    background-color: #088178;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.contactform form button:hover{
+    background-color: #194f48;
+}
+.contactform form span{
+    margin-top: 30px ;
+    font-size: 20px;
+}
+.contactform form h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+   
+}
+.blogitem{
+    margin: 10px;
+    font-family: poppins;
+    border: 1px solid #194f48;
+    padding: 0px 30px;
+   
+}
+.blog-container h1{
+    margin: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.blogitem h2{
+    font-size: 40px;
+    font-weight: 600;
+}   
+.blogitem p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.blogitem button{
+    background-color: #088178;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+  
+
+}
+.blogitem button:hover{
+    background-color: #194f48;
+}
+#active{
+    color: white;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.terima{
+    display: flex;
+    justify-content: space-between;
+}
+.terima h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.terima ul li{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.moreabout h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.moreabout p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.hi{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.noo{
+    font-size: 40px;
+    font-weight: 700;
+    font-family:'Playwrite AU SA', sans-serif;
+    margin-bottom: 10px;
+
+}
