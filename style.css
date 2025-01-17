@@ -5,7 +5,7 @@
 }
 .sidebar{
     background-color: rgb(163, 163, 167);
-    width: 300px;
+    width: 200px;
     font-family:  'Poppins', sans-serif;
 }
 .sidebar nav{
@@ -45,11 +45,65 @@
     justify-content: space-around;
    margin: 144px auto;
 }
+.infocontainer{
+    height: 58vh;
+    display: flex;
+    width:75vw ;
+    justify-content: space-around;
+    margin: 144px auto;
+   
+ }
+ .infocontainer .rubi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+ }
+ .infocontainer .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+    margin-top: 30px;
+ }
+ .infocontainer .experience-edu{
+    margin-top: 30px;
+    
+ }
+ .infocontainer .experience-edu .education{
+    margin-top: 30px;
+
+ }
+ 
 .devInfo{
     display: flex;
-    justify-content: center;
     flex-direction: column;
 
+}
+.devInfo h2{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.devInfo h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.devInfo .info{
+    display: flex;
+}
+.devInfo p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.devInfo li{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
 }
 .hello{
     font-size: 60px;
@@ -94,7 +148,7 @@
     display: flex;
     border: 1px solid #7d7a7a;
     border-radius: 25px;
-    height: 85vh;
+    height: 600px;
     margin: 60px 150px;
     
 }
@@ -102,13 +156,13 @@
     width: 65%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 200px;
+    align-items: center;
+    margin-left: 150px;
 }
 .contactform form input{
     width: 100%;
     padding: 10px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: 1px solid #e7e7e7;
     border-radius: 10px;
     font-size: 20px;
@@ -124,7 +178,7 @@
 .contactform p{
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .contactform form button{
     background-color: #088178;
@@ -141,48 +195,37 @@
     background-color: #194f48;
 }
 .contactform form span{
-    margin-top: 30px ;
+    margin-top: 20px ;
     font-size: 20px;
 }
 .contactform form h2{
-    font-size: 60px;
-    margin-bottom: 30px;
-   
-}
-.blogitem{
-    margin: 10px;
-    font-family: poppins;
-    border: 1px solid #194f48;
-    padding: 0px 30px;
-   
-}
-.blog-container h1{
-    margin: 10px;
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 50px;
     margin-bottom: 20px;
+   
 }
-.blogitem h2{
-    font-size: 40px;
-    font-weight: 600;
-}   
-.blogitem p{
-    font-size: 20px;
-    font-weight: 300;
-}
+
 .blogitem button{
     background-color: #088178;
     color: #fff;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border: 0;
     border-radius: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 7px;
     cursor: pointer;
     transition: 0.2s ease;
   
 
+}
+.blogby{
+    text-align: center;
+}
+.blog-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
 }
 .blogitem button:hover{
     background-color: #194f48;
@@ -190,6 +233,21 @@
 #active{
     color: white;
 }
+.blogitem .blog-img img{
+    width: auto;
+    height: 140px;
+    border-radius: 10px;
+
+}
+.blogitem{
+    width: 20%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #7d7a7a;
+    border-radius: 10px;
+}
+
+
 .about{
     display: flex;
     justify-content: space-around;
@@ -229,4 +287,52 @@
     font-family:'Playwrite AU SA', sans-serif;
     margin-bottom: 10px;
 
+}
+.main-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.main-bar .servdiv{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.main-bar h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.main-bar .serv{
+   
+    box-shadow: 0px 0px 15px 0px #a79fac;
+    background-color: #f4eff7;
+    margin: 10px;
+    height: 250px;
+    width: 30%;
+    
+
+}
+.main-bar .serv i{
+    font-size: 30px;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    
+    width: 40px;
+    height: 50px;
+}
+.main-bar .serv h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.main-bar .serv p{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
 }
