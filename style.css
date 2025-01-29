@@ -56,7 +56,7 @@ body{
 }
 .mainbar{
     /*background-color: red;*/
-    width: 90vw;
+    width: 100vw;
 }
 .container{
     display: flex;
@@ -171,11 +171,13 @@ body{
     margin: 0 auto;
 }
 .contactform{
+
     display: flex;
     border: 1px solid #7d7a7a;
     border-radius: 25px;
-    height: 600px;
-    margin: 60px 150px;
+    height: 500px;
+    width: 60vw;
+    margin: 50px auto;
     
 }
 .contactform form{
@@ -187,51 +189,50 @@ body{
 }
 .contactform form input{
     width: 100%;
-    padding: 10px 20px;
+    padding: 5px 10px;
     margin-bottom: 10px;
     border: 1px solid #e7e7e7;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .contactform form textarea{
     width: 100%;
-    padding: 10px 20px;
-    margin-bottom: 20px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
     border: 1px solid #e7e7e7;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .contactform p{
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 18px;
 }
 .contactform form button{
-    background-color: #088178;
+    background-color: rgb(215, 104, 215);
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border: 0;
     border-radius: 10px;
-    font-size: 20px;
+    margin-bottom: 15px;
+    font-size: 16px;
     font-weight: 700;
     cursor: pointer;
     transition: 0.2s ease;
 }
 .contactform form button:hover{
-    background-color: #194f48;
+    background-color:  rgb(210, 54, 215);
 }
 .contactform form span{
     margin-top: 20px ;
-    font-size: 20px;
+    font-size: 15px;
 }
 .contactform form h2{
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 20px;
    
 }
 
 .blogitem button{
-    background-color: #088178;
+    background-color:rgb(215, 104, 215);
     color: #fff;
     padding: 5px 10px;
     border: 0;
@@ -245,16 +246,22 @@ body{
 
 }
 .blogby{
+    font-size: 20px;
+    margin-top: 50px;
     text-align: center;
 }
 .blog-container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    overflow-y: scroll;
+    gap: 10px;
+    margin: 10px;
     
 }
+::-webkit-scrollbar{
+    display: none;
+}
 .blogitem button:hover{
-    background-color: #194f48;
+    background-color:rgb(193, 40, 198);
 }
 #active{
     color: white;
